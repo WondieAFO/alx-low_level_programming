@@ -4,7 +4,7 @@
 
 /**
 
- * main - prints the alphabet in lowercase,
+ * main - prints the lowercase alphabet in reverse,
 
  * followed by a new line
 
@@ -20,7 +20,7 @@ int main(void)
 
 
 
-	for (ch = 'a'; ch <= 'z'; ch++)
+	for (ch = 'z'; ch >= 'a'; ch--)
 
 	{
 
