@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * print_sign - to print sign
  * @n: number to check
@@ -14,10 +15,11 @@ int print_sign(int n)
 	else if (n < 0)
 	{
 		_putch ar('-');
-		return(-1);
+		return (-1);
 	}
 	else
 	{
 		_putchar ('0');
-		return (0)
-
+		return (0);
+	}
+}
