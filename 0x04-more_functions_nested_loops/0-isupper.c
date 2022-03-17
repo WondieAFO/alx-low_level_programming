@@ -9,6 +9,3 @@ int _isupper(int c)
 {
 	return (c >= 'A' && c <= 'Z');
 }
-© 2022 GitHub, Inc.
-Terms
-P
